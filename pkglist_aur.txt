@@ -1,0 +1,4 @@
+git-open
+kubecolor
+yay
+yay-debug
