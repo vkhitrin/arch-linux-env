@@ -67,6 +67,7 @@ pulseaudio
 pulseaudio-alsa
 pulseaudio-bluetooth
 python-pip
+python-pipx
 qt5-wayland
 ripgrep
 rsync
@@ -81,6 +82,7 @@ tk
 tmux
 tree-sitter-cli
 udisks2
+unixodbc
 upower
 vulkan-intel
 wget
