@@ -13,4 +13,4 @@ sudo pacman -S --needed --noconfirm - < pkglist.txt
 
 print_padded_title "yay - Sync Packages"
 [ -f pkglist_aur.txt ] || error_exit "No pkglist_aur.txt is found"
-yay -S --needed --noconfirm - < pkglist_aur.txt
+GIT_LFS_SKIP_SMUDGE=1 yay -S --needed --noconfirm - < pkglist_aur.txt

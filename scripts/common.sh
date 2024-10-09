@@ -15,7 +15,7 @@ function print_padded_title {
 }
  
 # Make sure script isn't executed on non Linux systems
-print_padded_title "linux Check"
+print_padded_title "Linux Check"
 if [[ $(uname) != "Linux" ]];then
     error_exit "Please make sure you're running on Linux"
 fi
