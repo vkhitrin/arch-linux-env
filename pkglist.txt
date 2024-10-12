@@ -42,9 +42,12 @@ inetutils
 intel-ucode
 iwd
 jq
+jre-openjdk
 just
+k9s
 keepassxc
 krew
+krita
 kubectl
 less
 libappindicator-gtk3
@@ -62,10 +65,13 @@ neovim
 networkmanager
 nodejs
 npm
+obs-studio
 packagekit
 php
 pipewire-pulse
 podman
+podman-compose
+podman-docker
 polkit
 power-profiles-daemon
 python-pip
@@ -89,6 +95,7 @@ unixodbc
 upower
 vulkan-intel
 wget
+wl-clipboard
 xfsprogs
 yt-dlp
 zenity
