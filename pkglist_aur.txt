@@ -1,4 +1,6 @@
 adduser-deb
+amazon-ecr-credential-helper
+amazon-ecr-credential-helper-debug
 apple-fonts
 apple-sf-script-extension-fonts
 aws-cli-v2
@@ -27,6 +29,7 @@ cosmic-workspaces-git
 flux-bin
 flux-bin-debug
 git-open
+gitlab-ci-local
 iriunwebcam-bin
 kubecolor
 mercury-browser-bin
@@ -36,9 +39,12 @@ pop-icon-theme-git
 pop-launcher-git
 pop-sound-theme-git
 rtl8821ce-dkms-git
+sublime-merge
+sublime-merge-debug
 tasks-git
 usage
 usage-debug
+vial-appimage
 xdg-desktop-portal-cosmic-git
 xinput-gui
 yay

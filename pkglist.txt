@@ -91,6 +91,7 @@ python-pipx
 python-pyqt5
 python-pyqt5-webengine
 qemu-base
+qmk
 qt5-wayland
 ripgrep
 rsync
@@ -110,6 +111,7 @@ tree-sitter-cli
 udisks2
 unixodbc
 upower
+usbutils
 vulkan-intel
 wf-recorder
 wget
