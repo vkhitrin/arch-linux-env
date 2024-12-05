@@ -86,6 +86,7 @@ podman-compose
 podman-docker
 polkit
 power-profiles-daemon
+pulseaudio-alsa
 python-pip
 python-pipx
 python-pyqt5
@@ -118,6 +119,7 @@ wget
 wl-clipboard
 xdg-desktop-portal-wlr
 xfsprogs
+yq
 yt-dlp
 zenity
 zsh
