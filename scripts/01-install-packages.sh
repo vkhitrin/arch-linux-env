@@ -14,3 +14,7 @@ sudo pacman -S --needed --noconfirm - < pkglist.txt
 print_padded_title "yay - Sync Packages"
 [ -f pkglist_aur.txt ] || error_exit "No pkglist_aur.txt is found"
 GIT_LFS_SKIP_SMUDGE=1 yay -S --needed --noconfirm - < pkglist_aur.txt
+
+print_padded_title "flatpak - Install Packages"
+[ -f pkglist_flatpak.txt ] || error_exit "No pkglist_aur.txt is found"
+cat pkglist_flatpak.txt | xargs flatpak install

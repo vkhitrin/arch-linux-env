@@ -33,3 +33,6 @@ dump-pacman-packages: ##Dumps pacman packages into a file
 
 dump-yay-aur-packages: ##Dumps yay AUR packages into a file
 	@./scripts/99-dump-yay-aur-packages.sh > ./pkglist_aur.txt
+
+dump-flatpak-packages: ##Dumps yay AUR packages into a file
+	@./scripts/99-dump-flatpak-packages.sh > ./pkglist_flatpak.txt
