@@ -4,4 +4,5 @@ com.valvesoftware.Steam
 io.github.f3d_app.f3d
 io.github.nokse22.Exhibit
 io.mpv.Mpv
+it.mijorus.gearlever
 org.signal.Signal
