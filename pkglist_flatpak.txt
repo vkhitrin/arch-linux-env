@@ -1,8 +1,2 @@
-com.dec05eba.gpu_screen_recorder
-com.discordapp.Discord
-com.valvesoftware.Steam
-io.github.f3d_app.f3d
-io.github.nokse22.Exhibit
-io.mpv.Mpv
+de.schmidhuberj.tubefeeder
 it.mijorus.gearlever
-org.signal.Signal

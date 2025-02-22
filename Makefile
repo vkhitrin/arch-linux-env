@@ -28,6 +28,12 @@ install-gh-extensions: ##Private customizations
 configure-mise:  #Configures mise
 	@./scripts/07-configure-mise.sh
 
+restore-config: #Restores config
+	@./scripts/08-restore.config.sh
+
+catppuccin-theme: ##Catppuccin theming
+	@./scripts/09-catppuccin-theme.sh
+
 dump-pacman-packages: ##Dumps pacman packages into a file
 	@./scripts/99-dump-pacman-packages.sh > ./pkglist.txt
 
