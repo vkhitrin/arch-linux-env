@@ -46,6 +46,7 @@ cosmic-text-editor
 cosmic-wallpapers
 cosmic-workspaces
 ctags
+ddcutil
 dkms
 dosfstools
 efibootmgr
