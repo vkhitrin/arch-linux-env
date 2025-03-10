@@ -103,6 +103,7 @@ luarocks
 lutris
 man-db
 mangohud
+minio-client
 mlton
 networkmanager
 nodejs
@@ -132,6 +133,7 @@ python-pyqt5-webengine
 qemu-base
 qmk
 rclone
+rebuild-detector
 reflector
 ripgrep
 rsync
