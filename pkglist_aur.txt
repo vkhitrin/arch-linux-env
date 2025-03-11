@@ -13,6 +13,7 @@ gitlab-ci-local
 icoextract
 jdownloader2
 kubecolor
+kubesess
 mackup
 mise-bin
 neovim-git
