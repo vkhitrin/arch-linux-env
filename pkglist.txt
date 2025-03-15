@@ -127,9 +127,9 @@ podman-docker
 power-profiles-daemon
 pulseaudio-alsa
 python-pip
-python-pipx
 python-pyqt5
 python-pyqt5-webengine
+python-uv
 qemu-base
 qmk
 rclone

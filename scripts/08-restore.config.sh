@@ -4,7 +4,7 @@ set -eo pipefail
 source ./scripts/common.sh
 
 # Ensure iCloud is enabled on system
-rclone config show icloud: || error_exit "iCloud is not enabled on the system"
+rclone config show icloud: >/dev/null || error_exit "iCloud is not enabled on the system"
 
 print_padded_title "Configuration - restore mackup backups"
 cp -f .mackup.cfg "${HOME}/"

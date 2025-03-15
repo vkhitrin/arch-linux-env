@@ -1,10 +1,10 @@
 .DEFAULT: help
-.PHONY: install-directories fetch-dotfiles install-python-packages install-tmux-tpm install-k8s-plugins install-gh-extensions configure-mise dump-pacman-packages dump-yay-aur-packages
+.PHONY: install-directories fetch-dotfiles install-python-packages install-tmux-tpm install-k8s-plugins install-gh-extensions configure-mise dump-pacman-packages dump-yay-aur-packages boostrap-arch-linux-environment
 
 help:
 	@grep -F -h "##" $(MAKEFILE_LIST) | sed -e 's/\(\:.*\#\#\)/\:\ /' | grep -F -v grep -F | sed -e 's/\\$$//' | sed -e 's/##//'
 
-install-directories: ##Installs directories
+create-directories: ##Installs directories
 	@./scripts/00-create-directories.sh
 
 install-packages: ##Installs pacman packages
@@ -42,3 +42,5 @@ dump-yay-aur-packages: ##Dumps yay AUR packages into a file
 
 dump-flatpak-packages: ##Dumps yay AUR packages into a file
 	@./scripts/99-dump-flatpak-packages.sh > ./pkglist_flatpak.txt
+
+boostrap-arch-linux-environment: create-directories install-packages  fetch-dotfiles install-python-packages install-tmux-tpm restore-config install-k8s-plugins  install-gh-extensions  ##Bootstraps the arch linux environment

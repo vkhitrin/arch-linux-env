@@ -19,6 +19,7 @@ mise-bin
 neovim-git
 nerd-fonts-sf-mono
 patool
+pet-bin
 proton-ge-custom-bin
 python-fvs
 python-pathvalidate

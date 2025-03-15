@@ -3,13 +3,12 @@ set -eo pipefail
 
 source ./scripts/common.sh
 
-print_padded_title "pipx - Install Additional Software"
-declare -a PIPX_PACKAGES
-declare -a PIPX_HARLEQUIN_PACKAGES
-PIPX_PACKAGES=("harlequin" "cqlsh" "rexi" "passhole")
-PIPX_HARLEQUIN_PACKAGES=("boto3" "harlequin-postgres" "harlequin-mysql" "harlequin-odbc")
-pipx install "${PIPX_PACKAGES[@]}"
-for HARLEQUIN_PACKAGE in "${PIPX_HARLEQUIN_PACKAGES[@]}"; do
-    pipx inject harlequin "${HARLEQUIN_PACKAGE}"
+print_padded_title "Brew uv - Install Additional Software"
+declare -a UV_PACKAGES
+declare -a UV_HARLEQUIN_EXTRA_ARGS
+UV_PACKAGES=("passhole")
+UV_HARLEQUIN_EXTRA_ARGS=("--with boto3" "--with harlequin-postgres" "--with harlequin-mysql" "--with harlequin-odbc")
+for UV_PACKAGE in "${UV_PACKAGES[@]}"; do
+    /usr/bin/uv tool install --refresh "${UV_PACKAGE}"
 done
-pipx upgrade-all --include-injected
+/usr/bin/uv tool install --refresh harlequin ${UV_HARLEQUIN_EXTRA_ARGS[@]}
