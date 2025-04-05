@@ -21,12 +21,12 @@ nerd-fonts-sf-mono
 patool
 pet-bin
 proton-ge-custom-bin
+python-docopt-ng
 python-fvs
 python-pathvalidate
 python-steamgriddb
-qadwaitadecorations-qt5
-qadwaitadecorations-qt6
 qt5-wayland-decorations
+remote-desktop-manager
 sideloader-bin
 sublime-merge
 thorium-browser-bin
@@ -38,3 +38,4 @@ xinput-gui
 yay-bin
 zen-browser-bin
 zsh-autopair-git
+zsh-fast-syntax-highlighting

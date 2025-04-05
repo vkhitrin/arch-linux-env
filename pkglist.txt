@@ -48,12 +48,13 @@ cosmic-workspaces
 ctags
 ddcutil
 dkms
+dmidecode
 dosfstools
 efibootmgr
+evolution-data-server
 evtest
 fwupd
 fzf
-ghostty
 git
 git-delta
 git-lfs
@@ -81,6 +82,7 @@ jre-openjdk
 just
 k9s
 keepassxc
+kitty
 krew
 krita
 kseexpr
@@ -109,9 +111,12 @@ networkmanager
 nodejs
 npm
 nvidia-open
+nvme-cli
 nvtop
 obs-studio
 obsidian
+ollama-cuda
+ollama-rocm
 opentofu
 packagekit
 php
@@ -173,4 +178,3 @@ yt-dlp
 zenity
 zsh
 zsh-completions
-zsh-syntax-highlighting
